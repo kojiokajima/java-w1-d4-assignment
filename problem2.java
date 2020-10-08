@@ -1,8 +1,8 @@
 public class problem2 {
 
     public static void main(String[] args) {
-        
-        // setting a title
+
+        // setting the table title
         System.out.println("\t\t\t\tMultiplication Table");
 
         // setting up header colums
@@ -12,13 +12,15 @@ public class problem2 {
         System.out.println("");
         System.out.println("--------------------------------------------------------------------------");
 
-        // display the elements
         for(int j = 1; j <= 9; j++) {
             // setting up header rows
             System.out.print(j + "  |" + "\t");
+
+            // display the elements
             for(int k = 1; k <= 9; k++) {
                 System.out.print((k * j) + "\t");
             }
+            
             System.out.println("");
         }
     }
