@@ -7,7 +7,7 @@ public class problem2 {
 
         // setting up header colums
         for(int i = 1; i <=9; i++) {
-                System.out.print("\t" + i);
+                System.out.print("\t " + i);
         }
         System.out.println("");
         System.out.println("--------------------------------------------------------------------------");
@@ -18,9 +18,13 @@ public class problem2 {
 
             // display the elements
             for(int k = 1; k <= 9; k++) {
-                System.out.print((k * j) + "\t");
+                if(j * k < 10){
+                    System.out.print(" " +(k * j) + "\t");
+                } else {
+                    System.out.print((k * j) + "\t");
+                }
             }
-            
+
             System.out.println("");
         }
     }
