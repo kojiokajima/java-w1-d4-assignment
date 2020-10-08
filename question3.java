@@ -20,27 +20,27 @@ public class question3 {
                 case 0:
                     switch (userNum) {
                         case 0:
-                            System.out.println("The computer is scissor. You are scissor too. It is a draw");
+                            System.out.println("The computer is scissor. You are scissor too. It is a draw.");
                             break;
                         case 1:
-                            System.out.println("The computer is scissor. You are rock. You won");
+                            System.out.println("The computer is scissor. You are rock. You won.");
                             counter++;
                             break;
                         case 2:
-                            System.out.println("The computer is scissor. You are paper. You lost");
+                            System.out.println("The computer is scissor. You are paper. You lost.");
                             break;
                     }
                     break;
                 case 1:
                     switch (userNum) {
                         case 0:
-                            System.out.println("The computer is rock. You are scissor. You lost");
+                            System.out.println("The computer is rock. You are scissor. You lost.");
                             break;
                         case 1:
-                            System.out.println("The computer is rock. You are rock too. It is a draw");
+                            System.out.println("The computer is rock. You are rock too. It is a draw.");
                             break;
                         case 2:
-                            System.out.println("The computer is rock. You are paper. You won");
+                            System.out.println("The computer is rock. You are paper. You won.");
                             counter++;
                             break;
                     }
@@ -48,14 +48,14 @@ public class question3 {
                 case 2:
                     switch (userNum) {
                         case 0:
-                            System.out.println("The computer is paper. You are scissor. You won");
+                            System.out.println("The computer is paper. You are scissor. You won.");
                             counter++;
                             break;
                         case 1:
-                            System.out.println("The computer is paper. You are rock. You lost");
+                            System.out.println("The computer is paper. You are rock. You lost.");
                             break;
                         case 2:
-                            System.out.println("The computer is paper. You are paper too. It is a draw");
+                            System.out.println("The computer is paper. You are paper too. It is a draw.");
                             break;
                     }
                     break;
