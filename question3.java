@@ -5,13 +5,13 @@ public class question3 {
 
     public static void main(String[] args) {
 
-        int compNum = (int) (Math.random() * 3);
-
         Scanner input = new Scanner(System.in);
 
         int counter = 0;
 
         while (counter < 2) {
+
+            int compNum = (int) (Math.random() * 3);
 
             System.out.print("scissor(0), rock(1), paper(2): ");
             int userNum = input.nextInt();
